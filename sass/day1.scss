@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*
 * You have the following variables
 * It is required to write a SASS code in which the values of all variables are used to produce the required Output
@@ -25,16 +24,24 @@ $gap: 20px;
 }
 
 */
-.school {
-  padding: 20px;
-  direction: rtl;
-  margin-right: 20px;
-}
-.school .school-box {
-  padding: 10px;
-}
-.school:hover .school-box {
-  background-color: #eee;
-}
 
-/*# sourceMappingURL=a1.css.map */
+$main: 'school';
+$child: 'box';
+$language: 'ar'; // Arabic
+$gap: 20px;
+
+.#{$main} {
+	padding: $gap;
+	@if $language == 'ar' {
+    direction: rtl;
+  }@else{
+    direction: ltr;
+  }
+	margin-right: $gap;
+	& &-#{$child} {
+		padding: calc($gap/2);
+	}
+	&:hover &-#{$child} {
+		background-color: #eee;
+	}
+}
