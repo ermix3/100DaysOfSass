@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/*
+* You have the following variables
+* It is required to write a SASS code in which the values of all variables are used to produce the required Output
+* If the value of the language variable is changed from en to ar, the values in the Output are different, as in the following examples
+* The “padding” of the child element is calculated as a arithmetic operation and you do not write it by hand
+* You must use variables to write the names of all classes and do not write them by hand
+
+$main: "school";
+$child: "box";
+$language: "ar"; // Arabic
+$gap: 20px;
+
+// Output
+.school {
+  padding: 20px;
+  direction: rtl;
+  margin-right: 20px;
+}
+.school .school-box {
+  padding: 10px;
+}
+.school:hover .school-box {
+  background-color: #eee;
+}
+
+*/
+.school {
+  padding: 20px;
+  direction: rtl;
+  margin-right: 20px;
+}
+.school .school-box {
+  padding: 10px;
+}
+.school:hover .school-box {
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=a1.css.map */

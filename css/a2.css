@@ -1,0 +1,36 @@
+/*
+* Write a SASS Code that will output the following output
+
+.content > .box {
+  padding: 15px;
+}
+.content > .box > .title {
+  font-size: 18px;
+}
+.content .cat {
+  padding: 15px;
+}
+.content.premium:before {
+  content: "Premium Box";
+}
+.content.premium:hover {
+  background-color: #eee;
+}
+*/
+.content > .box {
+  padding: 15px;
+}
+.content > .box > .title {
+  font-size: 18px;
+}
+.content .cat {
+  padding: 15px;
+}
+.content.premium:before {
+  content: "Premium Box";
+}
+.content.premium:hover {
+  background-color: #eee;
+}
+
+/*# sourceMappingURL=a2.css.map */

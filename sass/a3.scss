@@ -1,0 +1,25 @@
+/*
+* Write a SASS Code that will output the following output in three different ways
+.class > .child {
+  padding: 10px;
+}
+*/
+
+// first way
+.class > .child {
+	padding: 10px;
+}
+
+// seconde way
+.class > {
+	.child {
+		padding: 10px;
+	}
+}
+
+// third way
+.class  {
+  > .child {
+    padding: 10px;
+  }
+}

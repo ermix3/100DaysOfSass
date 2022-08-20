@@ -1,0 +1,21 @@
+/*
+* Write a SASS Code that will output the following output in two ways
+.class {
+  font-weight: bold;
+  font-size: 20px;
+}
+*/
+
+// first way
+.class {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+// seconde way
+.class {
+	font: {
+		weight: bold;
+		size: 20px;
+	}
+}

@@ -1,0 +1,132 @@
+/*
+* Make a mixin that creates the element's arrows according to the orientation 
+* See each example and its Output
+
+  .element {
+    &:before {
+      @include arrow("top");
+    }
+  }
+
+  // Output
+
+  .element:before {
+    content: "";
+    position: absolute;
+    border: 20px solid transparent;
+    top: -40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-bottom-color: red;
+  }
+
+  /////////////////////////////
+
+  .element {
+    &:before {
+      @include arrow("right");
+    }
+  }
+
+  // Output
+
+  .element:before {
+    content: "";
+    position: absolute;
+    border: 20px solid transparent;
+    right: -40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border-left-color: red;
+  }
+
+  /////////////////////////////
+
+  .element {
+    &:before {
+      @include arrow("bottom");
+    }
+  }
+
+  // Output
+
+  .element:before {
+    content: "";
+    position: absolute;
+    border: 20px solid transparent;
+    bottom: -40px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    border-top-color: red;
+  }
+
+  /////////////////////////////
+
+  .element {
+    &:before {
+      @include arrow("left");
+    }
+  }
+
+  // Output
+
+  .element:before {
+    content: "";
+    position: absolute;
+    border: 20px solid transparent;
+    left: -40px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    border-right-color: red;
+  }
+
+*/
+.element:before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  right: -40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-top-color: red;
+}
+
+.element:before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  right: -40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-right-color: red;
+}
+
+.element:before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  right: -40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-bottom-color: red;
+}
+
+.element:before {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  right: -40px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border-left-color: red;
+}
+
+/*# sourceMappingURL=a6.css.map */

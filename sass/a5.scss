@@ -1,0 +1,27 @@
+/*
+* Test yourself without trying the Code and write the Output that will come out of the Code
+* Then write an explanation for each line of the code in the Comment that does not appear in the Output
+
+.parent {
+  & + .sibling {
+    margin: auto {
+      top: 10px;
+    }
+    & ~ .last {
+      padding: 10px;
+    }
+  }
+}
+
+*/
+
+.parent {
+  & + .sibling { // `&` is a parent selector, `+` is a sibling selector
+    margin: auto {
+      top: 10px;
+    }
+    & ~ .last { // `~` is a general sibling selector
+      padding: 10px;
+    }
+  }
+}

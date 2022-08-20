@@ -1,0 +1,57 @@
+/*
+* You have the following variable
+* It is never allowed to modify the variable 
+* Note the last item in which there is no font size and you should check if the font size is not present make it 16 .
+* by default To be used to output the next output
+
+$names:
+  "books" 20px red 18,
+  "games" 30px green 18,
+  "dvds" 20px blue;
+
+// Output
+
+.books {
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid red;
+  color: #444;
+}
+
+.games {
+  padding: 30px;
+  font-size: 18px;
+  border-bottom: 2px solid green;
+  color: #444;
+}
+
+.dvds {
+  padding: 20px;
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+  color: #444;
+}
+
+*/
+.books {
+  padding: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid red;
+  color: #444;
+}
+
+.games {
+  padding: 30px;
+  font-size: 18px;
+  border-bottom: 2px solid green;
+  color: #444;
+}
+
+.dvds {
+  padding: 20px;
+  font-size: 16px;
+  border-bottom: 2px solid blue;
+  color: #444;
+}
+
+/*# sourceMappingURL=a8.css.map */

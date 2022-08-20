@@ -1,0 +1,19 @@
+/*
+* Write a SASS Code that will output the following output in three different ways
+.class > .child {
+  padding: 10px;
+}
+*/
+.class > .child {
+  padding: 10px;
+}
+
+.class > .child {
+  padding: 10px;
+}
+
+.class > .child {
+  padding: 10px;
+}
+
+/*# sourceMappingURL=a3.css.map */
